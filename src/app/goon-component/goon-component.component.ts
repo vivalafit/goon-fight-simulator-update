@@ -16,6 +16,7 @@ export class GoonComponentComponent implements OnInit {
   d10Roll = new FormControl('');
   AdditionalREF = new FormControl('');
   totalREFval : number = 0;
+  isAFK : boolean = false;
   @Output() exportGoon = new EventEmitter<Goon>();
   @Output() killGoon = new EventEmitter<Goon>();
 
@@ -39,6 +40,12 @@ export class GoonComponentComponent implements OnInit {
                        this.addbits(this.AdditionalREF.value)
     this.goon.name = this.name.value;
     this.goon.totalREFval = this.totalREFval;
+    this.exportGoon.emit(this.goon);
+  }
+
+  setGoonAFK(){
+    this.isAFK = !this.isAFK;
+    this.goon.isAFK = this.isAFK;
     this.exportGoon.emit(this.goon);
   }
 

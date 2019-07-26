@@ -6,7 +6,9 @@
     <div class="header-summary">
       <div class="text">Well, well, who is going to kill or get killed first? Lets see :</div>
       <div class="initiative-guys-list d-flex justify-content-center">
-        <div class="initiative-item" *ngFor="let guy of allGuys; let i = index"> {{guy.name}} ({{guy.totalREFval}}) -></div>
+        <div class="initiative-item" *ngFor="let guy of allGuys; let i = index"
+        [ngClass]="{afk: guy.isAFK}"
+        > {{guy.name}} ({{guy.totalREFval}}) -></div>
       </div>
     </div>
     <div class="humans">

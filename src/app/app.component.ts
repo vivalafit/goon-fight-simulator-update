@@ -12,6 +12,7 @@ export class AppComponent {
   goons: Array<Goon> = [];
   yourBoys: Array<Goon> = [];
   allGuys: Array<Goon> = [];
+  selected: Number;
 
   addGoon() {
        this.goons.push(new Goon());

@@ -6,3 +6,5 @@ v.0.2 : added Dynamic Initiave Counting
 v.0.3 : added Goons Deletion
 
 v.0.4 : added Additional fields for SP / Wounds
+
+v.0.5 : added AFK functionality for goons
