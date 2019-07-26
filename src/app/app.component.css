@@ -1,0 +1,47 @@
+.app {
+    padding-top: 50px;
+    font-size: 18px;
+}
+.goons, .bois {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+.initiative-guys-list {
+    display: flex;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+button.btn.btn-dark {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 1px;
+  width: stretch;
+}
+
+.header-summary {
+    margin-bottom: 30px;
+}
+
+.header-summary .text {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 25px;
+
+}
+
+.humans {
+    display: flex;
+}
+
+.goons-container, .my-boys-container {
+  padding-top: 15px;
+  min-width: 50%;
+  border: 1px solid;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}

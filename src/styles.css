@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  font-family: 'Teko', sans-serif !important;
+}
+
+h2{
+  margin-bottom: 0 !important;
+}
+
+input[type="text"] {
+    text-align: center !important;
+}

@@ -1,0 +1,61 @@
+label {
+    margin-bottom: 0.3rem;
+}
+
+.goon-container {
+    width: 180px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+button.btn.btn-danger {
+    width: 90%;
+    padding-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.ref-summary {
+    text-align: center;
+    width: 89%;
+}
+
+.body-sp {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.body-sp label.sp-square input {
+  width: 40px;
+  margin-bottom: 0;
+}
+
+.header-sp, .wound-header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+.sp-container, .woudnings-container{
+  border: 1px solid;
+
+}
+
+.stat-input label, .inputs-container label{
+  width: 89%;
+  text-align: center;
+}
+
+label.sp-square {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sp-header, .wound-header {
+    text-align: center;
+}
+
+.additional-fields {
+    width: 89%;
+}
+label.wound-square {
+    margin-bottom: 0;
+}

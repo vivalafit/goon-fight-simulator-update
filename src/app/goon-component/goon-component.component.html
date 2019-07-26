@@ -1,0 +1,83 @@
+<div class="goon-container">
+  <div class="ref-summary">
+      Total REF for {{name.value}} is : <b>{{ totalREFval }}</b>
+  </div>
+  <div class="stat-input">
+    <label>
+      Name :
+      <input type="text" (keyup)="countTotalInitiative()" [formControl]="name">
+    </label>
+  </div>
+  <div class="inputs-container">
+    <div class="stat-input">
+      <label>
+        Inital REF :
+        <input type="text" (keyup)="countTotalInitiative()" [formControl]="REFval">
+      </label>
+    </div>
+    <div class="stat-input">
+      <label>
+        1d10 ROLL :
+        <input type="text" (keyup)="countTotalInitiative()" [formControl]="d10Roll">
+      </label>
+    </div>
+    <div class="stat-input">
+      <label>
+        Buffs/Debufs :
+        <input type="text" (keyup)="countTotalInitiative()" [formControl]="AdditionalREF">
+      </label>
+    </div>
+  </div>
+  <button type="button" class="btn btn-danger" (click)="removeGoon()">Kill Command</button>
+  <div class="additional-fields">
+    <div class="sp-container">
+      <div class="header-sp">SPs :</div>
+      <div class="body-sp d-flex justify-content-center">
+        <label class="sp-square">
+          <div class="sp-header">
+            HEAD
+          </div>
+          <input type="text">
+        </label>
+        <label class="sp-square">
+          <div class="sp-header">
+            TORSO
+          </div>
+          <input type="text">
+        </label>
+        <label class="sp-square">
+          <div class="sp-header">
+            R.ARM
+          </div>
+          <input type="text">
+        </label>
+        <label class="sp-square">
+          <div class="sp-header">
+            L.ARM
+          </div>
+          <input type="text">
+        </label>
+        <label class="sp-square">
+          <div class="sp-header">
+            R.LEG
+          </div>
+          <input type="text">
+        </label>
+        <label class="sp-square">
+          <div class="sp-header">
+            L.LEG
+          </div>
+          <input type="text">
+        </label>
+     </div>
+    </div>
+    <div class="woudnings-container d-flex justify-content-center">
+     <label class="wound-square">
+       <div class="wound-header">
+         WOUND LEVEL
+       </div>
+       <input type="text">
+     </label>
+    </div>
+  </div>
+</div>
