@@ -28,6 +28,8 @@
       </label>
     </div>
   </div>
+  <button type="button" class="btn btn-warning" *ngIf="isAFK" (click)="setGoonAFK()">AFK</button>
+  <button type="button" class="btn btn-primary" *ngIf="!isAFK" (click)="setGoonAFK()">Not AFK</button>
   <button type="button" class="btn btn-danger" (click)="removeGoon()">Kill Command</button>
   <div class="additional-fields">
     <div class="sp-container">

@@ -5,7 +5,7 @@
 .goons, .bois {
     display: flex;
     flex-flow: row wrap;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .initiative-guys-list {
@@ -20,6 +20,10 @@ button.btn.btn-dark {
   margin-right: 15px;
   padding-bottom: 1px;
   width: stretch;
+}
+
+.afk{
+    display: none;
 }
 
 .header-summary {
